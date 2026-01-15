@@ -140,10 +140,10 @@ onUnmounted(() => {
   --neon-cyan: #5ddddd;
   --neon-peach: #ff9a8b;
   
-  padding: 2.5rem 3rem;
+  padding: 1.5rem 2.5rem;
   position: relative;
   overflow: hidden;
-  min-height: 300px;
+  min-height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -247,8 +247,8 @@ onUnmounted(() => {
   position: relative;
   z-index: 1;
   display: flex;
-  align-items: stretch;
-  gap: 3rem;
+  align-items: center;
+  gap: 2.5rem;
   width: 100%;
 }
 
@@ -272,7 +272,7 @@ onUnmounted(() => {
     
     .unit-wrapper {
       position: relative;
-      font-size: 5.5rem;
+      font-size: 4.5rem;
       font-weight: 800;
       line-height: 1;
       min-width: 1.8ch;
@@ -310,7 +310,7 @@ onUnmounted(() => {
       }
       
       &.seconds {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         opacity: 0.9;
         .digit-face { background-image: linear-gradient(to bottom, #fff 30%, $neon-peach 100%); }
         .digit-glow { color: $neon-peach; }
@@ -318,11 +318,11 @@ onUnmounted(() => {
     }
     
     .separator {
-      font-size: 3.5rem;
+      font-size: 2.8rem;
       color: $neon-sky;
       opacity: 0.6;
       animation: blink 2s steps(2) infinite;
-      margin: 0 0.2rem;
+      margin: 0 0.1rem;
     }
   }
   
@@ -347,18 +347,18 @@ onUnmounted(() => {
 .metrics-section {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.2rem;
   justify-content: center;
   align-items: center;
   border-left: 1px dashed rgba(79, 195, 247, 0.2);
-  padding-left: 3rem;
+  padding-left: 2.5rem;
 }
 
 // 秒数进度
 .circular-container {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   
   .progress-svg {
     transform: rotate(-90deg);
@@ -392,7 +392,7 @@ onUnmounted(() => {
     font-family: 'JetBrainsMono', monospace;
     
     .sec-value {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
       font-weight: bold;
       color: #fff;
       line-height: 1;
@@ -446,15 +446,15 @@ onUnmounted(() => {
     
     .month-name {
       font-family: 'Orbitron', sans-serif;
-      font-size: 1.2rem;
+      font-size: 1rem;
       color: $neon-peach;
       letter-spacing: 2px;
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.2rem;
     }
     
     .date-num {
       font-family: 'Orbitron', sans-serif;
-      font-size: 3.5rem;
+      font-size: 2.8rem;
       font-weight: 900;
       color: #fff;
       text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
@@ -465,9 +465,9 @@ onUnmounted(() => {
 // 底部装饰
 .bottom-deco {
   position: absolute;
-  bottom: 1.5rem;
-  left: 3rem;
-  right: 3rem;
+  bottom: 1rem;
+  left: 2.5rem;
+  right: 2.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
