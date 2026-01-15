@@ -51,7 +51,7 @@ const siteIcp = computed(() => import.meta.env.VITE_SITE_ICP || '')
   justify-content: center;
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(0, 240, 255, 0.1);
+  border-top: 1px solid rgba(79, 195, 247, 0.2);
   font-size: 14px;
   color: $text-secondary;
   position: relative;
@@ -73,14 +73,14 @@ const siteIcp = computed(() => import.meta.env.VITE_SITE_ICP || '')
       }
       
       a {
-        color: $neon-blue;
+        color: $neon-sky;
         text-decoration: none;
         margin-left: 0.3rem;
         transition: all 0.3s ease;
         
         &:hover {
-          color: color.adjust($neon-blue, $lightness: 10%);
-          text-shadow: 0 0 10px $neon-blue;
+          color: color.adjust($neon-sky, $lightness: 10%);
+          text-shadow: 0 0 10px $neon-sky;
         }
       }
     }

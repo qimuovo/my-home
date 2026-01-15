@@ -53,12 +53,12 @@ const appStore = useAppStore()
         height: 100px;
         margin: 0 auto;
         position: relative;
-        border: 3px solid $neon-blue;
+        border: 3px solid $neon-sky;
         border-radius: 50%;
         animation: rotate 2s linear infinite;
         box-shadow: 
-          0 0 20px $neon-blue,
-          inset 0 0 20px $neon-blue;
+          0 0 20px $neon-sky,
+          inset 0 0 20px $neon-sky;
         
         &::before,
         &::after {
@@ -73,11 +73,11 @@ const appStore = useAppStore()
         &::before {
           width: 80%;
           height: 80%;
-          border: 2px solid $neon-pink;
+          border: 2px solid $neon-cyan;
           animation: rotate 1.5s linear infinite reverse;
           box-shadow: 
-            0 0 15px $neon-pink,
-            inset 0 0 15px $neon-pink;
+            0 0 15px $neon-cyan,
+            inset 0 0 15px $neon-cyan;
         }
         
         .inner-circle {
@@ -87,10 +87,10 @@ const appStore = useAppStore()
           transform: translate(-50%, -50%);
           width: 60%;
           height: 60%;
-          background: linear-gradient(135deg, $neon-blue, $neon-pink);
+          background: linear-gradient(135deg, $neon-sky, $neon-peach);
           border-radius: 50%;
           animation: pulse 1.5s ease-in-out infinite;
-          box-shadow: 0 0 30px rgba(0, 240, 255, 0.6);
+          box-shadow: 0 0 30px rgba(79, 195, 247, 0.6);
         }
       }
     }
@@ -98,10 +98,10 @@ const appStore = useAppStore()
     .loading-text {
       font-family: 'Orbitron', monospace;
       font-size: 1.5rem;
-      color: $neon-blue;
+      color: $neon-sky;
       letter-spacing: 0.3em;
       margin-bottom: 1.5rem;
-      text-shadow: 0 0 10px $neon-blue;
+      text-shadow: 0 0 10px $neon-sky;
       
       .dots {
         span {
@@ -123,16 +123,16 @@ const appStore = useAppStore()
     .loading-bar {
       width: 300px;
       height: 4px;
-      background: rgba(0, 240, 255, 0.2);
+      background: rgba(79, 195, 247, 0.2);
       border-radius: 2px;
       overflow: hidden;
       margin: 0 auto;
       
       .progress {
         height: 100%;
-        background: linear-gradient(90deg, $neon-blue, $neon-pink);
+        background: linear-gradient(90deg, $neon-sky, $neon-peach);
         animation: progress 2s ease-in-out infinite;
-        box-shadow: 0 0 10px $neon-blue;
+        box-shadow: 0 0 10px $neon-sky;
       }
     }
   }

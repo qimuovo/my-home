@@ -61,7 +61,7 @@ onMounted(() => {
     transform: translateY(-5px);
     box-shadow: 
       0 10px 30px rgba(0, 0, 0, 0.3),
-      0 0 20px rgba(0, 240, 255, 0.2);
+      0 0 20px rgba(79, 195, 247, 0.3);
     
     .refresh-hint {
       opacity: 1;
@@ -77,7 +77,7 @@ onMounted(() => {
         top: -20px;
         left: -10px;
         font-size: 4rem;
-        color: $neon-blue;
+        color: $neon-sky;
         opacity: 0.3;
         font-family: Georgia, serif;
       }
@@ -109,7 +109,7 @@ onMounted(() => {
     align-items: center;
     gap: 0.5rem;
     font-size: 0.9rem;
-    color: $neon-blue;
+    color: $neon-sky;
     opacity: 0;
     transition: opacity 0.3s ease;
     

@@ -267,8 +267,8 @@ onMounted(() => {
     .title {
       font-family: 'Orbitron', sans-serif;
       font-size: 1.2rem;
-      color: $neon-blue;
-      text-shadow: 0 0 10px $neon-blue;
+      color: $neon-sky;
+      text-shadow: 0 0 10px $neon-sky;
       margin: 0;
     }
     
@@ -281,7 +281,7 @@ onMounted(() => {
       transition: all 0.3s ease;
       
       &:hover {
-        color: $neon-pink;
+        color: $neon-peach;
         transform: rotate(90deg);
       }
     }
@@ -308,8 +308,8 @@ onMounted(() => {
         
         &:focus {
           outline: none;
-          border-color: $neon-blue;
-          box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+          border-color: $neon-sky;
+          box-shadow: 0 0 10px rgba(79, 195, 247, 0.4);
         }
         
         &::placeholder {
@@ -319,7 +319,7 @@ onMounted(() => {
       
       .search-btn {
         padding: 0.8rem 1.5rem;
-        background: $neon-blue;
+        background: $neon-sky;
         border: none;
         border-radius: $radius-md;
         color: $background-dark;
@@ -328,8 +328,8 @@ onMounted(() => {
         transition: all 0.3s ease;
         
         &:hover {
-          background: color.adjust($neon-blue, $lightness: 10%);
-          box-shadow: 0 0 15px $neon-blue;
+          background: color.adjust($neon-sky, $lightness: 10%);
+          box-shadow: 0 0 15px $neon-sky;
         }
       }
     }
@@ -348,7 +348,7 @@ onMounted(() => {
         height: 60px;
         border-radius: $radius-md;
         object-fit: cover;
-        border: 2px solid $neon-blue;
+        border: 2px solid $neon-sky;
         
         &.rotating {
           animation: rotate 10s linear infinite;
@@ -397,7 +397,7 @@ onMounted(() => {
           height: 100%;
           background: $gradient-neon;
           transition: width 0.1s linear;
-          box-shadow: 0 0 10px $neon-blue;
+          box-shadow: 0 0 10px $neon-sky;
         }
       }
     }
@@ -421,21 +421,21 @@ onMounted(() => {
         transition: all 0.3s ease;
         
         &:hover {
-          background: rgba(0, 240, 255, 0.2);
-          border-color: $neon-blue;
+          background: rgba(79, 195, 247, 0.2);
+          border-color: $neon-sky;
           transform: scale(1.1);
         }
         
         &.play-btn {
           width: 50px;
           height: 50px;
-          background: $neon-blue;
+          background: $neon-sky;
           color: $background-dark;
           font-size: 1.4rem;
           
           &:hover {
-            background: color.adjust($neon-blue, $lightness: 10%);
-            box-shadow: 0 0 15px $neon-blue;
+            background: color.adjust($neon-sky, $lightness: 10%);
+            box-shadow: 0 0 15px $neon-sky;
           }
         }
       }
@@ -458,10 +458,10 @@ onMounted(() => {
             -webkit-appearance: none;
             width: 12px;
             height: 12px;
-            background: $neon-blue;
+            background: $neon-sky;
             border-radius: 50%;
             cursor: pointer;
-            box-shadow: 0 0 10px $neon-blue;
+            box-shadow: 0 0 10px $neon-sky;
           }
         }
       }
@@ -491,8 +491,8 @@ onMounted(() => {
           transition: all 0.3s ease;
           
           &:hover {
-            border-color: $neon-pink;
-            color: $neon-pink;
+            border-color: $neon-peach;
+            color: $neon-peach;
           }
         }
       }
@@ -517,8 +517,8 @@ onMounted(() => {
           
           &:hover,
           &.active {
-            background: rgba(0, 240, 255, 0.1);
-            border-color: $neon-blue;
+            background: rgba(79, 195, 247, 0.1);
+            border-color: $neon-sky;
             
             .play-icon {
               opacity: 1;
@@ -554,7 +554,7 @@ onMounted(() => {
           }
           
           .play-icon {
-            color: $neon-blue;
+            color: $neon-sky;
             opacity: 0;
             transition: opacity 0.3s ease;
           }

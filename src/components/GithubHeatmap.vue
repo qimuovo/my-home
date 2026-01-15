@@ -66,8 +66,8 @@ const onImageError = () => {
   .title {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.1rem;
-    color: $neon-blue;
-    text-shadow: 0 0 10px $neon-blue;
+    color: $neon-sky;
+    text-shadow: 0 0 10px $neon-sky;
     text-align: center;
     margin-bottom: 1rem;
     letter-spacing: 0.1em;
@@ -110,8 +110,8 @@ const onImageError = () => {
         .loading-spinner {
           width: 40px;
           height: 40px;
-          border: 3px solid rgba(0, 240, 255, 0.2);
-          border-top-color: $neon-blue;
+          border: 3px solid rgba(79, 195, 247, 0.2);
+          border-top-color: $neon-sky;
           border-radius: 50%;
           animation: spin 1s linear infinite;
           margin-bottom: 1rem;
@@ -142,8 +142,8 @@ const onImageError = () => {
       align-items: center;
       gap: 0.5rem;
       padding: 0.5rem 1rem;
-      background: rgba(0, 240, 255, 0.05);
-      border: 1px solid rgba(0, 240, 255, 0.3);
+      background: rgba(79, 195, 247, 0.08);
+      border: 1px solid rgba(79, 195, 247, 0.3);
       border-radius: $radius-md;
       text-decoration: none;
       color: $text-primary;
@@ -151,10 +151,10 @@ const onImageError = () => {
       transition: all 0.3s ease;
       
       &:hover {
-        background: rgba(0, 240, 255, 0.15);
-        border-color: $neon-blue;
+        background: rgba(79, 195, 247, 0.18);
+        border-color: $neon-sky;
         transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(0, 240, 255, 0.2);
+        box-shadow: 0 5px 15px rgba(79, 195, 247, 0.3);
       }
       
       .github-icon {
@@ -166,20 +166,20 @@ const onImageError = () => {
     
     .repo-link {
       padding: 0.5rem 1rem;
-      background: rgba(255, 0, 255, 0.05);
-      border: 1px solid rgba(255, 0, 255, 0.3);
+      background: rgba(255, 154, 139, 0.08);
+      border: 1px solid rgba(255, 154, 139, 0.3);
       border-radius: $radius-md;
       text-decoration: none;
-      color: $neon-pink;
+      color: $neon-peach;
       font-size: 0.85rem;
       transition: all 0.3s ease;
       white-space: nowrap;
       
       &:hover {
-        background: rgba(255, 0, 255, 0.15);
-        border-color: $neon-pink;
+        background: rgba(255, 154, 139, 0.18);
+        border-color: $neon-peach;
         transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(255, 0, 255, 0.2);
+        box-shadow: 0 5px 15px rgba(255, 154, 139, 0.3);
       }
     }
   }

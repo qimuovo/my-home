@@ -112,11 +112,11 @@ onMounted(() => {
     
     .particle {
       position: absolute;
-      background: $neon-blue;
+      background: $neon-sky;
       border-radius: 50%;
       opacity: 0;
       animation: particle-float 3s infinite ease-in-out;
-      box-shadow: 0 0 10px $neon-blue;
+      box-shadow: 0 0 10px $neon-sky;
     }
   }
 }

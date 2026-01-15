@@ -142,10 +142,10 @@ body {
 
 @keyframes neonPulse {
   0%, 100% {
-    text-shadow: 0 0 10px $neon-blue, 0 0 20px $neon-blue, 0 0 30px $neon-blue;
+    text-shadow: 0 0 10px $neon-sky, 0 0 20px $neon-sky, 0 0 30px $neon-sky;
   }
   50% {
-    text-shadow: 0 0 20px $neon-blue, 0 0 30px $neon-blue, 0 0 40px $neon-blue;
+    text-shadow: 0 0 20px $neon-sky, 0 0 30px $neon-sky, 0 0 40px $neon-cyan;
   }
 }
 
@@ -176,8 +176,8 @@ body {
 }
 
 .neon-text {
-  color: $neon-blue;
-  text-shadow: 0 0 10px $neon-blue, 0 0 20px $neon-blue;
+  color: $neon-sky;
+  text-shadow: 0 0 10px $neon-sky, 0 0 20px $neon-sky;
 }
 
 .cyber-border {

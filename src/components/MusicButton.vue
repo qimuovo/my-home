@@ -33,7 +33,7 @@ const musicStore = useMusicStore()
   height: 60px;
   background: $glass-bg;
   backdrop-filter: $glass-blur;
-  border: 2px solid $neon-blue;
+  border: 2px solid $neon-sky;
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s $ease-out-expo;
@@ -41,13 +41,13 @@ const musicStore = useMusicStore()
   animation: float 3s ease-in-out infinite;
   box-shadow: 
     0 5px 20px rgba(0, 0, 0, 0.3),
-    0 0 20px rgba(0, 240, 255, 0.3);
+    0 0 20px rgba(79, 195, 247, 0.4);
   
   &:hover {
     transform: scale(1.1);
     box-shadow: 
       0 8px 30px rgba(0, 0, 0, 0.4),
-      0 0 30px rgba(0, 240, 255, 0.5);
+      0 0 30px rgba(79, 195, 247, 0.6);
     
     .icon-wrapper {
       transform: rotate(10deg);
@@ -59,10 +59,10 @@ const musicStore = useMusicStore()
   }
   
   &.playing {
-    border-color: $neon-pink;
+    border-color: $neon-peach;
     box-shadow: 
       0 5px 20px rgba(0, 0, 0, 0.3),
-      0 0 20px rgba(255, 0, 255, 0.3);
+      0 0 20px rgba(255, 154, 139, 0.4);
     
     .waves {
       opacity: 1;
@@ -102,7 +102,7 @@ const musicStore = useMusicStore()
       .wave {
         width: 3px;
         height: 20px;
-        background: $neon-blue;
+        background: $neon-sky;
         border-radius: 2px;
         animation: wave 1s ease-in-out infinite;
         

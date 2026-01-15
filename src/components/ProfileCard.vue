@@ -116,8 +116,8 @@ const currentTip = ref(defaultTip)
       font-family: 'Orbitron', sans-serif;
       font-size: 2rem;
       font-weight: bold;
-      color: $neon-blue;
-      text-shadow: 0 0 10px $neon-blue;
+      color: $neon-sky;
+      text-shadow: 0 0 10px $neon-sky, 0 0 20px rgba(79, 195, 247, 0.6);
       margin-bottom: 0.5rem;
       letter-spacing: 0.05em;
     }
@@ -146,17 +146,17 @@ const currentTip = ref(defaultTip)
       
       .tag {
         padding: 0.5rem 1rem;
-        background: rgba(0, 240, 255, 0.1);
-        border: 1px solid rgba(0, 240, 255, 0.3);
+        background: rgba(79, 195, 247, 0.1);
+        border: 1px solid rgba(79, 195, 247, 0.3);
         border-radius: $radius-md;
         font-size: 0.9rem;
         color: $text-primary;
         transition: all 0.3s ease;
         
         &:hover {
-          background: rgba(0, 240, 255, 0.2);
-          border-color: $neon-blue;
-          box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+          background: rgba(79, 195, 247, 0.2);
+          border-color: $neon-sky;
+          box-shadow: 0 0 10px rgba(79, 195, 247, 0.5);
           transform: translateY(-2px);
         }
       }
@@ -181,7 +181,7 @@ const currentTip = ref(defaultTip)
     .social-links {
       margin-top: 1.5rem;
       padding-top: 1.5rem;
-      border-top: 1px solid rgba(0, 240, 255, 0.2);
+      border-top: 1px solid rgba(79, 195, 247, 0.2);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -219,10 +219,10 @@ const currentTip = ref(defaultTip)
           transition: all 0.3s $ease-out-expo;
           
           &:hover {
-            background: rgba(0, 240, 255, 0.2);
-            border-color: $neon-blue;
+            background: rgba(79, 195, 247, 0.2);
+            border-color: $neon-sky;
             transform: scale(1.15);
-            box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+            box-shadow: 0 0 15px rgba(79, 195, 247, 0.5);
           }
           
           &:active {

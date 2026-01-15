@@ -41,8 +41,8 @@ const siteLinks = reactive(siteLinksData)
     font-family: 'Orbitron', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    color: $neon-blue;
-    text-shadow: 0 0 10px $neon-blue;
+    color: $neon-sky;
+    text-shadow: 0 0 10px $neon-sky;
     text-align: center;
     margin-bottom: 2rem;
     letter-spacing: 0.1em;
@@ -51,7 +51,7 @@ const siteLinks = reactive(siteLinksData)
     &::after {
       content: '//';
       margin: 0 1rem;
-      color: $neon-pink;
+      color: $neon-peach;
     }
   }
   
@@ -82,7 +82,7 @@ const siteLinks = reactive(siteLinksData)
         height: 100%;
         background: linear-gradient(135deg, 
           transparent 0%, 
-          var(--accent-color, $neon-blue) 100%
+          var(--accent-color, $neon-sky) 100%
         );
         opacity: 0;
         transition: opacity 0.4s ease;
@@ -96,7 +96,7 @@ const siteLinks = reactive(siteLinksData)
         height: 200%;
         background: radial-gradient(
           circle,
-          var(--accent-color, $neon-blue) 0%,
+          var(--accent-color, $neon-sky) 0%,
           transparent 70%
         );
         opacity: 0;
@@ -105,10 +105,10 @@ const siteLinks = reactive(siteLinksData)
       
       &:hover {
         transform: translateY(-10px);
-        border-color: var(--accent-color, $neon-blue);
+        border-color: var(--accent-color, $neon-sky);
         box-shadow: 
           0 10px 30px rgba(0, 0, 0, 0.3),
-          0 0 20px var(--accent-color, rgba(0, 240, 255, 0.3));
+          0 0 20px var(--accent-color, rgba(79, 195, 247, 0.4));
         
         &::before {
           opacity: 0.1;
@@ -142,7 +142,7 @@ const siteLinks = reactive(siteLinksData)
           display: block;
           object-fit: contain;
           transition: transform 0.4s $ease-out-expo;
-          filter: drop-shadow(0 0 8px var(--accent-color, $neon-blue));
+          filter: drop-shadow(0 0 8px var(--accent-color, $neon-sky));
         }
         
         .name {
@@ -164,7 +164,7 @@ const siteLinks = reactive(siteLinksData)
         top: 1rem;
         right: 0.8rem;
         font-size: 1.2rem;
-        color: var(--accent-color, $neon-blue);
+        color: var(--accent-color, $neon-sky);
         opacity: 0;
         transition: all 0.3s ease;
         z-index: 2;
