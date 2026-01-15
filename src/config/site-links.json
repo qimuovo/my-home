@@ -1,0 +1,45 @@
+[
+  {
+    "name": "博客",
+    "desc": "技术博客与文章",
+    "url": "https://blog.qimuovo.cn",
+    "icon": "/images/icon/cat.png",
+    "color": "#4ECDC4"
+  },
+  {
+    "name": "GitHub",
+    "desc": "开源项目展示",
+    "url": "https://github.com/qimuovo",
+    "icon": "/images/icon/github.png",
+    "color": "#FF6B6B"
+  },
+  {
+    "name": "音乐",
+    "desc": "我的音乐收藏",
+    "url": "https://music.qimuovo.cn",
+    "icon": "/images/icon/music.png",
+    "color": "#95E1D3"
+  },
+  {
+    "name": "Gitee",
+    "desc": "代码托管平台",
+    "url": "https://gitee.com/qimuovo",
+    "icon": "/images/icon/gitee.png",
+    "color": "#F38181"
+  },
+  {
+    "name": "BiliBili",
+    "desc": "视频分享",
+    "url": "https://space.bilibili.com/393991081",
+    "icon": "/images/icon/bilibili.png",
+    "color": "#A8E6CF"
+  },
+  {
+    "name": "Twitter",
+    "desc": "社交媒体",
+    "url": "https://twitter.com/qimuovo",
+    "icon": "/images/icon/twitter.png",
+    "color": "#FFD3B6"
+  }
+]
+

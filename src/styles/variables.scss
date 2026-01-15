@@ -1,0 +1,47 @@
+// 赛博朋克配色方案
+$primary-color: #00f0ff;
+$secondary-color: #ff00ff;
+$accent-color: #ffff00;
+$background-dark: #0a0a0f;
+$background-light: #1a1a2e;
+$text-primary: #e0e0e0;
+$text-secondary: #a0a0a0;
+$neon-blue: #00f0ff;
+$neon-pink: #ff00ff;
+$neon-purple: #9d00ff;
+$neon-green: #00ff9d;
+
+// 渐变色
+$gradient-cyber: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+$gradient-neon: linear-gradient(135deg, $neon-blue 0%, $neon-pink 100%);
+$gradient-dark: linear-gradient(180deg, $background-dark 0%, $background-light 100%);
+
+// 玻璃态效果
+$glass-bg: rgba(26, 26, 46, 0.3);
+$glass-border: rgba(255, 255, 255, 0.1);
+$glass-blur: blur(20px);
+
+// 动画曲线
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+$ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1);
+
+// 间距
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 1.5rem;
+$spacing-lg: 2rem;
+$spacing-xl: 3rem;
+
+// 圆角
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 16px;
+$radius-xl: 24px;
+
+// 阴影
+$shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 16px rgba(0, 0, 0, 0.2);
+$shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+$shadow-neon-blue: 0 0 20px rgba(0, 240, 255, 0.5);
+$shadow-neon-pink: 0 0 20px rgba(255, 0, 255, 0.5);
+
